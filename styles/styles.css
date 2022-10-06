@@ -59,7 +59,6 @@ header {
     display: flex;
     align-items: center;
     margin-top: 0;
-   
 }
 .logo {
     color:var(--accent-color);
@@ -86,7 +85,6 @@ header {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-
     font-weight: 500;
     font-size: 20px;
     line-height: 1.14;
@@ -133,7 +131,6 @@ header {
     letter-spacing: 0.06em;
     color: var(--other-text-color);
     margin-bottom: 30px;
-    
 }
 .solution-button {
     width: 216px;
@@ -148,7 +145,6 @@ header {
     line-height: 1.9;
     color: var(--other-text-color);
     margin: 0 auto;
-    
 }
 
 /*Особливості*/
@@ -223,7 +219,6 @@ header {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 94px;
-    
 }
 .team-member {
     font-weight: 500;
@@ -355,11 +350,14 @@ header {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
-
+    padding-right: 24px;
+    padding-left: 24px;
 }
 .example-text {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-right: 24px;
+    padding-left: 24px;
 }
