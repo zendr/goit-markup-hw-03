@@ -34,7 +34,9 @@ li {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;   
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 
 .section {
@@ -344,13 +346,12 @@ header {
     }
 .example .item {
     width: 370px;
-    height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.example-button .item:nth-child(3n) {
+.example .item:nth-child(3n) {
     margin-right: 0;
 }
 .example-button .item:nth-child(-n + 3) {
